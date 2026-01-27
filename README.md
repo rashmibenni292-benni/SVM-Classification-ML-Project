@@ -26,6 +26,9 @@ This project demonstrates an end-to-end machine learning pipeline using Support 
 
 ## 📁 Project Structure
 
-<img width="306" height="247" alt="image" src="https://github.com/user-attachments/assets/b8bd292a-e4e6-446c-92d5-5e2d7e383081" />
+<img width="302" height="137" alt="image" src="https://github.com/user-attachments/assets/7a210ac7-142a-4c7a-b2ba-3df8bd5eb93c" />
+<img width="211" height="73" alt="image" src="https://github.com/user-attachments/assets/c78e5d5c-845a-4476-bd0f-11da245c5823" />
+
+
 
 
