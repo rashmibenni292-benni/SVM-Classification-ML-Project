@@ -26,11 +26,6 @@ This project demonstrates an end-to-end machine learning pipeline using Support 
 
 ## 📁 Project Structure
 
-SVM-Classification-ML-Project/
-├── data/
-├── notebooks/
-├── results/
-├── src/
-├── requirements.txt
-├── README.md
+<img width="306" height="247" alt="image" src="https://github.com/user-attachments/assets/b8bd292a-e4e6-446c-92d5-5e2d7e383081" />
+
 
