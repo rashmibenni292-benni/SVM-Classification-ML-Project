@@ -14,7 +14,8 @@ This project demonstrates an end-to-end machine learning pipeline using Support 
 - Reproducible Google Colab notebook
 
 ## 📊 Results
-![Confusion Matrix](results/confusion_matrix.png)
+<img width="501" height="393" alt="image" src="https://github.com/user-attachments/assets/a6a21193-6a4b-42d8-8da3-342c90f440d6" />
+
 
 ## 🛠️ Tech Stack
 - Python
