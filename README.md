@@ -4,6 +4,21 @@
 
 ---
 
+## 📑 Table of Contents
+
+1. [Overview](#-overview)
+2. [Objectives](#-objectives)
+3. [Key Features](#-key-features)
+4. [Results & Evaluation](#-results--evaluation)
+
+   * [Confusion Matrix](#-confusion-matrix)
+5. [Tech Stack](#-tech-stack)
+6. [Project Structure](#-project-structure)
+7. [Notebook Highlights](#-notebook-highlights)
+
+---
+
+
 ## 📌 Overview
 
 This repository contains an end-to-end **binary classification project using Support Vector Machines (SVM)**.
