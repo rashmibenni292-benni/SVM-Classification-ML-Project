@@ -1,34 +1,104 @@
-# SVM-Classification-ML-Project
-End-to-end SVM classification project with preprocessing, tuning, and evaluation
+# 🧠 SVM-Classification-ML-Project
 
-# Support Vector Machine (SVM) Classification Project
+**End-to-End Support Vector Machine (SVM) Classification with Model Tuning & Evaluation**
+
+---
 
 ## 📌 Overview
-This project demonstrates an end-to-end machine learning pipeline using Support Vector Machines (SVM) for classification.
 
-## 🚀 Features
-- Data preprocessing & feature scaling
-- SVM with RBF kernel
-- Hyperparameter tuning using GridSearchCV
-- Detailed evaluation metrics
-- Reproducible Google Colab notebook
+This repository contains an end-to-end **binary classification project using Support Vector Machines (SVM)**.
+The project demonstrates the complete machine learning workflow — from data preprocessing to hyperparameter tuning and performance evaluation — implemented in a **reproducible Jupyter Notebook (Google Colab compatible)**.
 
-## 📊 Results
-<img width="501" height="393" alt="image" src="https://github.com/user-attachments/assets/a6a21193-6a4b-42d8-8da3-342c90f440d6" />
+The goal of this project is to showcase **strong ML fundamentals, clean experimentation, and interpretability**, making it suitable for **machine learning engineer / data scientist role pitches**.
 
+---
+
+## 🎯 Objectives
+
+* Build a robust SVM-based classification model
+* Apply proper preprocessing and feature scaling
+* Tune hyperparameters for optimal performance
+* Evaluate the model using multiple metrics beyond accuracy
+* Present results in a clear, visual, and explainable manner
+
+---
+
+## 🚀 Key Features
+
+* ✔️ Data preprocessing & cleaning
+* ✔️ Feature scaling using `StandardScaler`
+* ✔️ SVM classifier with **RBF kernel**
+* ✔️ Hyperparameter tuning using **GridSearchCV**
+* ✔️ Model evaluation using:
+
+  * Confusion Matrix
+  * Accuracy, Precision, Recall, F1-score
+* ✔️ Well-documented **Jupyter Notebook (.ipynb)**
+* ✔️ Ready-to-run on **Google Colab**
+
+---
+
+## 📊 Results & Evaluation
+
+### 🔹 Confusion Matrix
+
+The trained SVM model achieves strong classification performance with very low misclassification:
+
+| Actual \ Predicted | 0  | 1  |
+| ------------------ | -- | -- |
+| **0**              | 41 | 2  |
+| **1**              | 1  | 70 |
+
+**Insights:**
+
+* High True Positive and True Negative counts
+* Very low False Positives and False Negatives
+* Indicates strong class separation by the SVM decision boundary
+
+📈 This demonstrates that the model generalizes well and is not biased toward any single class.
+
+---
 
 ## 🛠️ Tech Stack
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib
-- Seaborn
+
+* **Python 3**
+* **Scikit-learn**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Jupyter / Google Colab**
+
+---
 
 ## 📁 Project Structure
 
-<img width="302" height="137" alt="image" src="https://github.com/user-attachments/assets/7a210ac7-142a-4c7a-b2ba-3df8bd5eb93c" />
-<img width="211" height="73" alt="image" src="https://github.com/user-attachments/assets/c78e5d5c-845a-4476-bd0f-11da245c5823" />
+```bash
+SVM-Classification-ML-Project/
+│
+├── data/
+│   └── (dataset files)
+│
+├── notebooks/
+│   └── SVM_Classification.ipynb
+│
+├── results/
+│   └── confusion_matrix.png
+│
+├── requirements.txt
+└── README.md
+```
 
+
+## 📓 Notebook Highlights
+
+The notebook includes:
+
+1. Exploratory Data Analysis (EDA)
+2. Feature scaling and preprocessing
+3. Model building using SVM
+4. Hyperparameter tuning with GridSearchCV
+5. Final model evaluation and visualization
 
 
 
